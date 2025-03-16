@@ -58,11 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
     element.innerHTML = `
       <p class="title">${item.content}</p>
       <div class="btn-container">
-        <button type="button" class="delete-btn">
-          <i class="fas fa-trash"></i>
-        </button>
         <button type="button" class="edit-btn">
           <i class="fas fa-edit"></i>
+        </button>
+        <button type="button" class="delete-btn">
+          <i class="fas fa-trash"></i>
         </button>
       </div>
     `;
